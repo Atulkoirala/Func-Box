@@ -64,9 +64,9 @@ export default class foot extends Component {
 
                    <div className="row2 my-2">
                         <p className="text-white bg-black fs-2">Made By Atul Koirala</p>
-                        <button class="btn btn-outline-primary fs-3 my-0 me-5"><FaFacebook/></button>
-                        <button class="btn btn-outline-danger fs-3 my-0 me-5"><FaInstagram/></button>
-                        <button class="btn btn-outline-primary fs-3 my-0 me-5"><FaLinkedinIn/></button>                        
+                        <a class="btn btn-outline-primary fs-3 my-0 me-5" href="#" ><FaFacebook/></a>
+                        <a class="btn btn-outline-danger fs-3 my-0 me-5" href="#"><FaInstagram/></a>
+                        <a class="btn btn-outline-primary fs-3 my-0 me-5" href="#"><FaLinkedinIn/></a>                       
                     </div>  
                     </div> 
                 </div>                  
