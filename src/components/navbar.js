@@ -20,23 +20,19 @@ class Navbar extends Component {
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse me-2" id="navbarSupportedContent">
+  <div class="collapse navbar-collapse me-2" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5 ms-5">
         <li class="nav-item ms-5">
-            <img className="img-fluid" src={home}></img>
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <a class="nav-link active" aria-current="page" href="#"><img className="img-fluid d-block" src={home}></img>Home</a>
         </li>
         <li class="nav-item ms-5">
-            <img className="img-fluid" src={about}></img>
-          <a class="nav-link active" href="#">About</a>
+          <a class="nav-link active" href="#"><img className="img-fluid d-block" src={about}></img>About</a>
         </li>
         <li class="nav-item ms-5">
-            <img className="img-fluid" src={shop}></img>
-          <a class="nav-link active" href="#">Shop</a>
+          <a class="nav-link active" href="#"><img className="img-fluid d-block" src={shop}></img>Shop</a>
         </li>
         <li class="nav-item ms-5">
-            <img className="img-fluid" src={log}></img>
-          <a class="nav-link active" href="#">Login/Sign Up</a>
+          <a class="nav-link active" href="#"><img className="img-fluid d-block" src={log}></img>Login/Sign Up</a>
         </li>
       </ul>
     </div>
