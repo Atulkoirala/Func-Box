@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import fot from '../img/foot.jpg'
-// import { FaBeer } from '../react-icons/fa';
+import { FaFacebook, FaInstagram, FaLinkedinIn, FaFacebookSquare } from 'react-icons/fa'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {  faFacebookF , } from '@fortawesome/free-brands-svg-icons';
 
 export default class foot extends Component {
     render() {
@@ -8,7 +10,7 @@ export default class foot extends Component {
             <footer>
                 <h2 className="fs-2">Get In Touch</h2>
                <div className="container one">
-                   <div className="row col-12 mx-2 p-2">
+                   <div className="row col-12 mx-2 mb-3 mt-0 p-2">
                     <form class="row g-3 needs-validation" novalidate>
                         <div class="col-md-4 position-relative fs-4 text-warning">
                             <label for="validationTooltip01" class="form-label">First name</label>
@@ -58,16 +60,16 @@ export default class foot extends Component {
                         <div class="col-12">
                             <button class="btn btn-secondary p-2 fs-4 mt-3" type="submit">Submit</button>
                         </div>
-                        </form>
-                    </div>
+                        </form>          
 
-                   <div className="row2 mt-5">
-                       <i className="fa fa-facebook"></i>
-                        <p className="text-danger fs-2">Made By Atul Koirala</p>
-                        {/* <FaBeer /> */}
-                        
+                   <div className="row2 my-2">
+                        <p className="text-white bg-black fs-2">Made By Atul Koirala</p>
+                        <button class="btn btn-outline-primary fs-3 my-0 me-5"><FaFacebook/></button>
+                        <button class="btn btn-outline-danger fs-3 my-0 me-5"><FaInstagram/></button>
+                        <button class="btn btn-outline-primary fs-3 my-0 me-5"><FaLinkedinIn/></button>                        
                     </div>  
-                    </div>                   
+                    </div> 
+                </div>                  
             </footer>
         )
     }
