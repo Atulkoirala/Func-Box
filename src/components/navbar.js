@@ -32,7 +32,7 @@ class Navbar extends Component {
           <a class="nav-link active" href="#"><img className="img-fluid d-block" src={shop}></img>Shop</a>
         </li>
         <li class="nav-item ms-5">
-          <a class="nav-link active" href="#"><img className="img-fluid d-block" src={log}></img>Login/Sign Up</a>
+          <a class="nav-link active" href="#"><img className="img-fluid d-block m-auto" src={log}></img>Login/Sign Up</a>
         </li>
       </ul>
     </div>
